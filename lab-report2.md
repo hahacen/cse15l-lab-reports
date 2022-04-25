@@ -16,5 +16,13 @@
 
 ![pic4](https://github.com/hahacen/cse15l-lab-reports/blob/main/761650860977_.pic.jpg)
 
-- the output is probelmatic because the picture link should not be returned, therefore we should break the while loop using this if statement
+- the output is probelmatic because the picture link should not be returned, therefore we should break the while loop using this if statement, there're two links, but this should only be one. Therefore, we should discard this picture link situation. 
+
+
+
+## change 3
+
+![pic5](https://github.com/hahacen/cse15l-lab-reports/blob/main/771650867065_.pic.jpg)
+
+
 
