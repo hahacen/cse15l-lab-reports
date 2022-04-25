@@ -24,5 +24,9 @@
 
 ![pic5](https://github.com/hahacen/cse15l-lab-reports/blob/main/771650867065_.pic.jpg)
 
+- the failure inducing input:https://github.com/hahacen/markdown-parser/blob/main/test-file8.md
+
+![pic6](https://github.com/hahacen/cse15l-lab-reports/blob/main/781650867394_.pic.jpg)
+
 
 
