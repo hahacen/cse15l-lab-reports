@@ -12,4 +12,9 @@
 
 ![pic3](https://github.com/hahacen/cse15l-lab-reports/blob/main/751650860220_.pic.jpg)
 
-- 
+- the failure inducing input: https://github.com/hahacen/markdown-parser/blob/main/test-file5.md
+
+![pic4](https://github.com/hahacen/cse15l-lab-reports/blob/main/761650860977_.pic.jpg)
+
+- the output is probelmatic because the picture link should not be returned, therefore we should break the while loop using this if statement
+
