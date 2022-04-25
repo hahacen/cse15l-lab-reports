@@ -10,6 +10,6 @@
 
 ## change 2
 
-![pic3]()
+![pic3](https://github.com/hahacen/cse15l-lab-reports/blob/main/751650860220_.pic.jpg)
 
 - 
