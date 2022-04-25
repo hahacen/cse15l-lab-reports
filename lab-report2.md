@@ -28,5 +28,4 @@
 
 ![pic6](https://github.com/hahacen/cse15l-lab-reports/blob/main/811650868181_.pic.jpg)
 
-- we want to fix the problem and only return the output only when "(" is immediately after "]",and we also want to avoid the situation when "()" is away from "[]". therefore we add this if statement to limit the condition to return. 
-
+- we want to fix the problem and only return the output only when "(" is immediately after "]",and we also want to avoid the situation when "()" is away from "[]". Therefore we add this if statement, when the to limit the condition to return. 
