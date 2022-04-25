@@ -26,7 +26,7 @@
 
 - the failure inducing input:https://github.com/hahacen/markdown-parser/blob/main/test-file8.md
 
-![pic6]()
+![pic6](https://github.com/hahacen/cse15l-lab-reports/blob/main/811650868181_.pic.jpg)
 
 - we want to fix the problem and only return the output only when "(" is immediately after "]", therefore we add this if statement to limit the condition to return. 
 
