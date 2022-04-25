@@ -16,7 +16,7 @@
 
 ![pic4](https://github.com/hahacen/cse15l-lab-reports/blob/main/761650860977_.pic.jpg)
 
-- the output is probelmatic because the picture link should not be returned, therefore we should break the while loop using this if statement, there're two links, but this should only be one. Therefore, we should discard this picture link situation. 
+- the output is probelmatic because the picture link should not be returned, therefore we should break the while loop using this if statement, there're two links, but this should only be one. Therefore, if we see a "[" immediately after "!" then we should discard this picture link situation. 
 
 
 
@@ -28,5 +28,5 @@
 
 ![pic6](https://github.com/hahacen/cse15l-lab-reports/blob/main/811650868181_.pic.jpg)
 
-- we want to fix the problem and only return the output only when "(" is immediately after "]", therefore we add this if statement to limit the condition to return. 
+- we want to fix the problem and only return the output only when "(" is immediately after "]",and we also want to avoid the situation when "()" is away from "[]". therefore we add this if statement to limit the condition to return. 
 
