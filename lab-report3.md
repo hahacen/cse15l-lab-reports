@@ -4,7 +4,7 @@
 
 ![pic1](https://github.com/hahacen/cse15l-lab-reports/blob/main/871652059218_.pic.jpg)
 
-
+![aa](871652059218_.pic.jpg)
  we use this to  edit the file ```(base) Macintosh-4:.ssh a$ vi ~/.ssh/config ```
 
 ![pic2](https://github.com/hahacen/cse15l-lab-reports/blob/main/881652059443_.pic.jpg)
