@@ -38,18 +38,28 @@ run and commit on ieng6 server:
 
 [commit link](https://github.com/hahacen/markdown-parser/commit/ea28110d7d0c3e7722d58d233d753e1ef45553de)
 ## task 3
+this is how we copy the whole resiptory step by step
 ![pic9](951652061603_.pic.jpg)
-
 ![pic10](961652061726_.pic.jpg)
 ![pic11](971652061741_.pic.jpg)
 ![pic12](981652061782_.pic.jpg)
 ![pic13](991652061794_.pic.jpg)
 ![pic14](1001652061819_.pic.jpg)
 
-
+I can also use the combined code as the following:
 ```
 scp -r . liu:markdown-parser; ssh liu "cd markdown-parser; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"
 ```
 
-we will use this combined code 
+![pic15](1141652751637_.pic.jpg)
+![pic16](1151652751654_.pic.jpg)
+
+
+These are the files in the markdown-parser resiptory in the local computer, which will be all copied to the remote server using scp
+![pic18](1161652751800_.pic.jpg)
+
+they are all copied to the remote server
+![pic19](1171652751824_.pic.jpg)
+![pic20](1181652751836_.pic.jpg)
+
 
