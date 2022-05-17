@@ -32,8 +32,10 @@ this is the public and private key
 ![pic77](59841652063902_.pic.jpg)
 
 run and commit on ieng6 server:
-![pic8](1111652747822_.pic.jpg)
+
 ![pic9](1101652747808_.pic.jpg)
+![pic8](1111652747822_.pic.jpg)
+
 [commit link](https://github.com/hahacen/markdown-parser/commit/ea28110d7d0c3e7722d58d233d753e1ef45553de)
 ## task 3
 ![pic9](951652061603_.pic.jpg)
@@ -44,8 +46,9 @@ run and commit on ieng6 server:
 ![pic13](991652061794_.pic.jpg)
 ![pic14](1001652061819_.pic.jpg)
 
+
 ```
-scp -r . liu:~/markdown-parser; ssh cse "cd /home/linux/ieng6/cs15lsp22/cs15lsp22anq/markdown-parser/; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar:. org.junit.runner.JUnitCore MarkdownParseTest"
+scp -r . liu:markdown-parser; ssh liu "cd markdown-parser; javac -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar MarkdownParseTest.java; java -cp .:lib/junit-4.13.2.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore MarkdownParseTest"
 ```
 
 we will use this combined code 
