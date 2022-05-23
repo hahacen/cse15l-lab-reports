@@ -49,6 +49,11 @@ my output:
 
 this is my peer's
 
+## Snippet 3:
+
+this is the expected output:
+```[this title text is really long and takes up more than one line]```
+
 ```
 @Test
     public void testSnippet3() throws IOException{
@@ -60,3 +65,7 @@ this is my peer's
 
 }
 ```
+my output:
+![pic3](1301653289299_.pic.jpg)
+
+my peer's:
