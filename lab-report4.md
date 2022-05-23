@@ -24,6 +24,7 @@ this is my output
 ![s1](1281653288921_.pic.jpg)
 
 this is my peer's :
+![p1](s1.jpg)
 
 ## Snippet2:
  this is the expected:
@@ -48,7 +49,7 @@ my output:
 ![pic2](1291653289178_.pic.jpg)
 
 this is my peer's
-
+![peer2](peer2.jpg)
 ## Snippet 3:
 
 this is the expected output:
@@ -69,3 +70,4 @@ my output:
 ![pic3](1301653289299_.pic.jpg)
 
 my peer's:
+![peer3](peer3.jpg)
