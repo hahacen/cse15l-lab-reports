@@ -6,7 +6,7 @@
 
 this is the expected:
 
-```[another link]```
+```[`google.com, google.com, ucsd.edu]```
 
 
 this is the test code
@@ -28,7 +28,7 @@ this is my peer's :
 
 ## Snippet2:
  this is the expected:
- ```[nested link, a nested parenthesized url, some escaped [ brackets ]]```
+ ```[a.com, a.com(()), example.com]```
 
 this is my test code:
 ```
@@ -53,7 +53,7 @@ this is my peer's
 ## Snippet 3:
 
 this is the expected output:
-```[this title text is really long and takes up more than one line]```
+```[https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/]```
 
 ```
 @Test
