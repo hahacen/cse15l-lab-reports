@@ -15,13 +15,12 @@ this is the test code
     public void testSnippet1() throws IOException{
         Path fileName=Path.of("/Users/a/Documents/GitHub/markdown-parser/Snippet1.md");
         String content = Files.readString(fileName);
-        ArrayList<String> expected= new ArrayList<>();
-        expected.add("another link");
+        List<String> expected= List.of("google.com","google.com", "ucsd.edu");
         assertEquals(expected,mark.getLinks(content));
     }
 ```
 this is my output
-![s1](new s1.jpg)
+![new s1.jpg](new%20s1.jpg)
 
 this is my peer's :
 ![p1](s1.jpg)
@@ -36,17 +35,13 @@ this is my test code:
     public void testSnippet2() throws IOException{
         Path fileName=Path.of("/Users/a/Documents/GitHub/markdown-parser/Snippet2.md");
         String content = Files.readString(fileName);
-        ArrayList<String> expected= new ArrayList<>();
-        expected.add("nested link");
-        expected.add("a nested parenthesized url");
-        expected.add("some escaped [ brackets ]");
-
+        List<String> expected= List.of("a.com","a.com(())", "example.com");
         assertEquals(expected,mark.getLinks(content));
 
 }
 ```
 my output:
-![pic2](new s2.jpg)
+![pic2](new%20s2.jpg)
 
 this is my peer's
 ![peer2](peer2.jpg)
@@ -60,14 +55,13 @@ this is the expected output:
     public void testSnippet3() throws IOException{
         Path fileName=Path.of("/Users/a/Documents/GitHub/markdown-parser/Snippet3.md");
         String content = Files.readString(fileName);
-        ArrayList<String> expected= new ArrayList<>();
-        expected.add("[this title text is really long and takes up more than one line]");
+        List<String> expected= List.of("https://www.twitter.com"," https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule"," https://cse.ucsd.edu/");
         assertEquals(expected,mark.getLinks(content));
 
 }
 ```
 my output:
-![pic3](new s3.jpg)
+![pic3](new%20s3.jpg)
 
 my peer's:
 ![peer3](peer3.jpg)
