@@ -21,7 +21,7 @@ this is the test code
     }
 ```
 this is my output
-![s1]()
+![s1](new s1.jpg)
 
 this is my peer's :
 ![p1](s1.jpg)
@@ -46,7 +46,7 @@ this is my test code:
 }
 ```
 my output:
-![pic2](1291653289178_.pic.jpg)
+![pic2](new s2.jpg)
 
 this is my peer's
 ![peer2](peer2.jpg)
@@ -67,7 +67,7 @@ this is the expected output:
 }
 ```
 my output:
-![pic3](1301653289299_.pic.jpg)
+![pic3](new s3.jpg)
 
 my peer's:
 ![peer3](peer3.jpg)
