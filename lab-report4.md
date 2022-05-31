@@ -21,7 +21,7 @@ this is the test code
     }
 ```
 this is my output
-![s1](1281653288921_.pic.jpg)
+![s1]()
 
 this is my peer's :
 ![p1](s1.jpg)
