@@ -13,6 +13,7 @@ Through ```vimfiff``` command, I was able to find the tests that have different 
 
 this is the difference:
 ![pic2](labreport52.jpg)
+![pic3](1631654891865_.pic.jpg)
 
 ### Task 2:
 Provide a link to the test-file with different-results (in the provided repository or your repository , either is fine)
@@ -30,7 +31,7 @@ Describe which implementation is correct, or neither if both give the wrong outp
 
 For the first test, the implementation provided for lab 9 is wrong as compared to the expected output, and mine is correct. 
 
-For the second test, the implementationprovided for lab 9 is also wrong, and mine is correct.
+For the second test, the implementationprovided for lab 9 is also correct, and mine is wrong.
 
 Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
 
@@ -41,5 +42,15 @@ the expected output should be
 ```/f&ouml;&ouml; "f&ouml;&ouml;"```
 
 the actual output is 
+![32](1621654891574_.pic.jpg)
+
+the left output is mine, and right is the course implementation
+
+for the second #487 test
+
+the expected output should be
+```[]```
+
+the actual is 
 
 
