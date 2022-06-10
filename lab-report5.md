@@ -18,6 +18,7 @@ this is the difference:
 Provide a link to the test-file with different-results (in the provided repository or your repository , either is fine)
 
 [link1](https://github.com/hahacen/markdown-parser/blob/main/test-files/32.html.test)
+
 [link2](https://github.com/hahacen/markdown-parser/blob/main/test-files/481.html.test)
 
 
@@ -27,10 +28,18 @@ For each test:
 
 Describe which implementation is correct, or neither if both give the wrong output
 
-For the first test, the implementation provided for lab 9 is wrong as compared to the expected output.
+For the first test, the implementation provided for lab 9 is wrong as compared to the expected output, and mine is correct. 
 
-For the second test, the implementationprovided for lab 9 is also wrong.
+For the second test, the implementationprovided for lab 9 is also wrong, and mine is correct.
 
 Indicate both actual outputs (provide screenshots) and also what the expected output is (list the links that are expected in the output).
+
+for the first #32 test:
+
+the expected output should be 
+
+```/f&ouml;&ouml; "f&ouml;&ouml;"```
+
+the actual output is 
 
 
