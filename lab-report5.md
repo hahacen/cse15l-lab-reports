@@ -64,6 +64,12 @@ For the implementation that’s not correct (or choose one if both are incorrect
 
 #### for the #32:
 
+![3222](1681654892821_.pic.jpg)
 
+while there should return a link, course implementation didn't. In the course implementation, this line fails to determine when the link includes a space. To fix the bug, we need to make the if-condition more specific to include to "or" conditions.
 
+#### for the #487:
 
+![4877777]()
+
+while there shouldn't return a link, but my implementation returned the incorrect link. 
