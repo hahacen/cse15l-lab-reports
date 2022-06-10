@@ -46,11 +46,24 @@ the actual output is
 
 the left output is mine, and right is the course implementation
 
+and I will examine through the course implementation
+
 for the second #487 test
 
 the expected output should be
 ```[]```
 
 the actual is 
+
+![487](1661654892316_.pic.jpg)
+
+for the first mistake, I will examine through the my implementation:
+### Task 4:
+
+For the implementation that’s not correct (or choose one if both are incorrect), describe the bug (the problem in the code) in about 2-3 sentences. You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed (Provide a screenshot of code and highlight where the change needs to be made).
+
+#### for the #32:
+
+
 
 
