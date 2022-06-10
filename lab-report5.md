@@ -20,7 +20,7 @@ Provide a link to the test-file with different-results (in the provided reposito
 
 [link1](https://github.com/hahacen/markdown-parser/blob/main/test-files/32.html.test)
 
-[link2](https://github.com/hahacen/markdown-parser/blob/main/test-files/481.html.test)
+[link2](https://github.com/hahacen/markdown-parser/blob/main/test-files/487.html.test)
 
 
 ### Task 3:
@@ -70,6 +70,6 @@ while there should return a link, course implementation didn't. In the course im
 
 #### for the #487:
 
-![4877777]()
+![4877777](1701654894855_.pic.jpg)
 
-while there shouldn't return a link, but my implementation returned the incorrect link. 
+while there shouldn't return a link, but my implementation returned the incorrect link. This fails because I fail to take account the account when there's a space. In order to fix the bug, I need to make the if-statement more specific when to break the while loop. 
